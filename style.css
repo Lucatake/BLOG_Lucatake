@@ -1,0 +1,218 @@
+
+html{ height: 100%; width: 100%; margin: 0px; padding: 0px; overflow-x: hidden; }
+
+a{ text-decoration: none; color: rgb(255, 187, 0); font-weight: bold; }
+a:hover{ color: rgb(255, 115, 0); }
+.redes a{ color: rgb(84, 0, 95);}
+.redes a:hover{ color: rgb(102, 0, 80);}
+
+/*MENU*/
+.menu{
+    display: flex;
+    position: fixed;
+    float: left;
+    flex-wrap: wrap;
+    align-content: center;
+    top: 0px;
+    height: 100%;
+    overflow: hidden;
+    width: 260px;
+    z-index: 998;
+}
+.menu {
+    display: block;
+    color:white;
+    padding-top: 50px;
+}
+.menu li a{
+    display: block;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: -25px;
+}
+li ul.menuS a{ font-size: 18px; margin-left: -40px; }
+.menu-icon{
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    line-height: 60px;
+    color: black;
+    z-index: 999;
+}
+.menu-icon:hover{ 
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: rgb(0, 69, 126);
+    z-index: 999;
+}
+.menu a:hover{ 
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    color: rgb(0, 69, 126);
+}
+@keyframes lado{
+    from { width: 0px; }
+    to { width: 260px; }
+}
+#menuToggle:checked ~ label.menu-icon i:nth-child(2) { display: block; }
+#menuToggle:not(:checked) ~ label.menu-icon i:nth-child(2) {  display: none; }
+#menuToggle:not(:checked) ~ label.menu-icon i:first-child { display: block; }
+#menuToggle:checked ~ label.menu-icon i:first-child { display: none; }
+#menuToggle:checked ~ ul.menu  { height: 100%; animation: lado 0.2s ease-in-out; background-color: rgba(0, 69, 133, 0.055); margin: -30px; padding-top: 100px; padding-left: 80px;}
+#menuToggle:not(:checked) ~ ul.menu  { display: none; }
+.menu-icon i { font-size: 2.3em; }
+input{ display: none;}
+
+/*HEADER*/
+header{
+    background-image: url(Imagens/Jornada.jpg);
+    margin-left: 310px;
+    margin-right: 260px;
+    margin-bottom: 50px;
+    background-size: cover;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: -26px 0;
+    text-align: center;
+    margin-top: -30px;
+}
+h1.titulo{ padding-top: 50px}
+
+/*CORPO*/
+.body{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.body h1{ font-size: 26px;}
+.redes img{ width: 150px; padding-top: 20px;}
+.redes{ align-content: center;}
+.redes a{ font-size: 1.8em; margin: 10px; }
+.sobre{ padding-bottom: 20px;}
+/*FOOTER*/
+footer{ 
+    background-color: rgb(0, 114, 180);
+    background-size: cover;
+    height: 40px;
+    margin: -10px;
+}
+footer h3{ 
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+/*responsividade*/
+/*Media Queries*/
+@media screen and (max-width:600px){
+
+/*HEADER*/
+    header{
+        font-size: 12px!important;
+        background-position: 0px 25px!important;
+        margin-top: 60px!important;
+    }
+
+/*BODY*/
+    .body{ padding-top: 210px; margin-left: 20px; margin-right: 20px;}
+
+}
+
+@media screen and (min-width:601px) and (max-width:1023px){
+
+/*BODY*/
+    .body{ padding-top: 270px; margin-left: 60px; margin-right: 60px; }
+
+}
+
+@media screen and (max-width:1023px){
+
+/*MENU*/
+    .menu{ 
+        float: top;
+        width: 100%;
+        padding-left: 130px;
+        overflow-y: scroll;
+        color:rgba(0, 0, 0, 0);
+    }
+    .menu li a{ padding-top: 5px; font-size: 18px; color: rgb(236, 236, 236); }
+    .menu-icon{ padding-left: 5px; position: fixed;}
+    @keyframes lado{
+        from { height: 0%; }
+        to { height: 101%; }
+    }
+    #menuToggle:checked ~ ul.menu  { height: 100%; animation: lado 0.2s ease-in-out; background-color: rgba(0, 0, 0, 0.582);}
+    #menuToggle:checked ~ label.menu-icon i:nth-child(2) { color: whitesmoke;} 
+    .menu a:hover{ color: rgb(255, 208, 0); }
+
+/*HEADER*/
+    header{
+        position: absolute;
+        margin: -10px;
+        margin-bottom: 30px;
+        margin-top: 100px;
+        background-size: cover;
+        width: 100%;
+        font-size: 14px;
+        background-position: 0px -30px;
+    }
+
+/*scratch e slnova*/
+    .img_scratch, .img_slnova{ width: 120px; padding-left: 20px; padding-top: 30px;}
+
+
+}
+
+
+@media screen and (min-width:1023px) {
+
+/*style nav*/
+    ul.direita{
+        position: fixed;
+        float: right;
+        top: 0px;
+        right: 0;
+        height: 100%;
+        width: 255px;
+        z-index: 998;
+        background-color: rgba(0, 69, 133, 0.055);
+    }
+    @keyframes lado1{
+        from { width: 0px; }
+        to { width: 260px; }
+    }
+    #menuToggle:checked ~ ul.direita  { animation: lado1 left 5s ease-in-out ; }
+    #menuToggle:not(:checked) ~ ul.direita  { display: none; }
+
+/*BODY*/
+    .body{ margin: 0px 280px 0px 330px; }
+
+/*scratch e slnova*/
+    .img_scratch, .img_slnova{ width: 120px; padding-left: 20px;}
+
+/*videoaulas*/
+    iframe.videoAula{ width: 600px; height: 400px; }
+
+/*jogos*/
+    iframe.jogos{ width: 500px; height: 400px;}
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1170px){
+
+/*style nav*/
+   header{ margin-right: -25px; }
+   ul.direita{ display: none; }
+   .body{ margin-right: 30px;}
+
+}
