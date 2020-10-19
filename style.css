@@ -111,6 +111,8 @@ footer h3{
     padding-top: 10px;
     color: whitesmoke;
 }
+.pinstrução{ text-align: left;}
+.game{ margin-top: 60px;}
 
 /*responsividade*/
 /*Media Queries*/
@@ -196,6 +198,7 @@ footer h3{
 
 /*BODY*/
     .body{ margin: 0px 280px 0px 330px; }
+    .pinstrução{ max-width: 900px;}
 
 /*scratch e slnova*/
     .img_scratch, .img_slnova{ width: 120px; padding-left: 20px;}
