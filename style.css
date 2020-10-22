@@ -170,7 +170,7 @@ footer h3{
     }
 
 /*scratch e slnova*/
-    .img_scratch, .img_slnova{ width: 120px; padding-left: 20px; padding-top: 30px;}
+    .img_scratch, .img_slnova, .img_tinkercad{ width: 120px; padding-left: 20px; padding-top: 30px;}
 
 
 }
@@ -201,7 +201,7 @@ footer h3{
     .pinstrução{ max-width: 900px;}
 
 /*scratch e slnova*/
-    .img_scratch, .img_slnova{ width: 120px; padding-left: 20px;}
+    .img_scratch, .img_slnova, .img_tinkercad{ width: 120px; padding-left: 20px;}
 
 /*videoaulas*/
     iframe.videoAula{ width: 600px; height: 400px; }
