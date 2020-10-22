@@ -1,2 +1,7 @@
 language = "html"
 run = "index.html"
+run = "scratch.html"
+run = "slnova.html"
+
+language = "css"
+run = "style.css"
