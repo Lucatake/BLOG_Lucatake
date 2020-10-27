@@ -3,8 +3,8 @@ html{ height: 100%; width: 100%; margin: 0px; padding: 0px; overflow-x: hidden; 
 
 a{ text-decoration: none; color: rgb(255, 187, 0); font-weight: bold; }
 a:hover{ color: rgb(255, 115, 0); }
-.redes a, .sobre a{ color: rgb(84, 0, 95);}
-.redes a:hover, .sobre a:hover{ color: rgb(102, 0, 80);}
+.redes a, .sobre a{ color: rgb(131, 0, 76)}
+.redes a:hover, .sobre a:hover{ color: rgb(56, 0, 102);}
 
 /*MENU*/
 .menu{
@@ -79,7 +79,7 @@ header{
     background-size: cover;
     height: 150px;
     background-repeat: no-repeat;
-    background-position: -26px 0;
+    background-position: -26px 0px;
     text-align: center;
     margin-top: -30px;
 }
