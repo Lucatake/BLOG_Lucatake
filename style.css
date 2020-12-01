@@ -1,11 +1,17 @@
 
 html{ height: 100%; width: 100%; margin: 0px; padding: 0px; overflow-x: hidden; }
-
+.body, .sobre{padding: 20px;}
 a{ text-decoration: none; color: rgb(255, 187, 0); font-weight: bold; }
 a:hover{ color: rgb(255, 115, 0); }
+/*banners de projetos IC*/
 .redes a, .sobreLu a{ color: rgb(131, 0, 76)}
 .redes a:hover, .sobreLu a:hover{ color: rgb(56, 0, 102);}
-
+object{ width: 850px; margin-left: -25px;}
+object:first-child{ height: 1000px;}
+.a2{ height: 450px!important;}
+.a3{ height: 850px!important;}
+.a5{ width: 600px; height: 850px!important;}
+object:last-child{ height: 1000px;}
 /*MENU*/
 .menu{
     display: flex;
