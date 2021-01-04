@@ -1,16 +1,16 @@
-# BLOG_Lucatake
+# Blog
 
-Blog de divulgação de científica pessoal.
 Disciplina de Laboratório de Introdução à Computação, primeiro período de Ciência da Computação do ICEI - Instituto de Ciências Exatas e Informática da PUC-Minas Belo Horizonte.
+
 Projeto desenvolvido com o objetivo de divulgar a Ciência da Computação e os meus projetos pessoais durante minha jornada acadêmica, ainda em andamento.
-Link para o projeto: https://blog-app-lucatake.herokuapp.com/
-Hospedado no Heroku.
+
+- Link para o projeto:  ([link] (https://blog-app-lucatake.herokuapp.com/))
+- Hospedado no Heroku.
 
 
 # Estrutura de Diretórios
 
-Este _template_ adota a seguinte estrutura de diretórios:
-
+Este projeto adota a seguinte estrutura de diretórios:
 
 - `src`
   - `assets`
