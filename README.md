@@ -4,7 +4,7 @@ Disciplina de Laboratório de Introdução à Computação, primeiro período de
 
 Projeto desenvolvido com o objetivo de divulgar a Ciência da Computação e os meus projetos pessoais durante minha jornada acadêmica, ainda em andamento.
 
-- Link para o projeto:  ([link] (https://blog-app-lucatake.herokuapp.com/))
+- Link para o projeto: https://blog-app-lucatake.herokuapp.com/
 - Hospedado no Heroku.
 
 
